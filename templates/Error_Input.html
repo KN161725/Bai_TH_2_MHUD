@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Error!!
+        </title>
+    </head>
+    <body>
+     <h1> Error in send data </h1>
+     <h2>Lỗi trong việc gửi dữ liệu. Gửi dữ liệu đúng theo biểu mẫu có sẵn </h2>
+     <div>
+            Các giá trị không hợp lệ hoặc không được nhập vào trong biểu mẫu được thiết lặp là "Invalid":<br>
+            <ol>
+                <li type="1"> sepal_length: {{sepal_length}}</li>
+                <li type="1"> sepal_width: {{sepal_width}}</li>
+                <li type="1"> petal_length: {{petal_length}}</li>
+                <li type="1"> petal_width: {{petal_width}}</li>
+            </ol>    
+    </div>
+     <h3><a href="{{url_for('input_data')}}">Quay lại trang input</a></h3>
+     <h3><a href="{{url_for('Home_page')}}">Quay lại trang chủ</a> </h3>
+    </body>
+</html>

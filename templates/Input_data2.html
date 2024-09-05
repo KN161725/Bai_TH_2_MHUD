@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        #attribute-info {
+            text-align: left;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Input data to predict</h1>
+    <p>Enter some text in the box below:</p>
+    <form method="POST">
+        
+        <label for="sepal_length">sepal_length:</label>
+        <input type="text" id="sepal_length" name="sepal_length" placeholder="float value...">
+
+        <label for="sepal_width">sepal_width:</label>
+        <input type="text" id="sepal_width" name="sepal_width" placeholder="float value...">
+
+        <label for="petal_length">petal_length:</label>
+        <input type="text" id="petal_length" name="petal_length" placeholder="float value..." >
+        
+        <label for="petal_width">petal_width:</label>
+        <input type="text" id="petal_width" name="petal_width"  placeholder="float value...">
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

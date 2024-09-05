@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Demo Model Machine learning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        a {
+            font-size: 18px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        div {
+            font-size: 16px;
+            text-align: left;
+            margin: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Demo. Tên: Lê Nguyễn Anh Khôi. Mssv:B22075233</h1>
+    <h2>Send data to predict</h2>
+    <a href="{{ url_for('input_data') }}">Send data</a>
+    <div>
+        <p>Model KNN phân lớp, dự đoán tập dữ liệu hoa Iris. Tập dữ liệu có dữ liệu đầu ra là 1 trong 3 lớp: Setosa, Versicolor, Virginica. Đầu vào gồm 4 đặc trưng</p>
+    </div>
+</body>
+
+</html>
